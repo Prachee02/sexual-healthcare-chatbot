@@ -1,0 +1,1073 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "healthcare",
+      "patterns": [
+        "Tell me about general health",
+        "What are common health issues?",
+        "How can I stay healthy?"
+      ],
+      "responses": [
+        "Maintaining a balanced diet and regular exercise are essential for good health.",
+        "It's important to get enough sleep and manage stress for overall well-being."
+      ]
+    },
+    {
+      "tag": "sexual_health_intro",
+      "patterns": [
+        "What is sexual health?",
+        "Tell me about sexual well-being",
+        "Explain sexual health"
+      ],
+      "responses": [
+        "Sexual health is a state of physical, mental, and social well-being in relation to sexuality.",
+        "It involves a positive and respectful approach to sexuality and sexual relationships."
+      ]
+    },
+    {
+      "tag": "contraception",
+      "patterns": [
+        "What are contraception methods?",
+        "Tell me about birth control",
+        "Explain contraceptives"
+      ],
+      "responses": [
+        "Contraception methods include condoms, birth control pills, IUDs, and more.",
+        "It's important to choose a contraceptive method that suits your health and lifestyle."
+      ]
+    },
+    {
+      "tag": "STIs",
+      "patterns": [
+        "What are sexually transmitted infections (STIs)?",
+        "Tell me about STIs",
+        "Explain sexually transmitted diseases (STDs)"
+      ],
+      "responses": [
+        "STIs are infections that are commonly spread through sexual activity.",
+        "Regular testing and practicing safe sex help prevent the spread of STIs."
+      ]
+    },
+    {
+      "tag": "safe_sex",
+      "patterns": [
+        "How to practice safe sex?",
+        "Tell me about safe sexual practices",
+        "Explain safe sex"
+      ],
+      "responses": [
+        "Practicing safe sex involves using barrier methods like condoms and getting regular health check-ups.",
+        "Communication and consent are crucial for a healthy and safe sexual relationship."
+      ]
+    },
+    {
+      "tag": "sexual_dysfunction",
+      "patterns": [
+        "What is sexual dysfunction?",
+        "Tell me about sexual issues",
+        "Explain sexual disorders"
+      ],
+      "responses": [
+        "Sexual dysfunction refers to problems that prevent an individual from experiencing satisfaction from sexual activity.",
+        "It can be related to physical or psychological factors. Consulting a healthcare professional is recommended."
+      ]
+    },
+    {
+      "tag": "family_planning",
+      "patterns": [
+        "Tell me about family planning",
+        "Explain family planning methods",
+        "How to plan a family?"
+      ],
+      "responses": [
+        "Family planning involves making informed decisions about when to have children and how many children to have.",
+        "Various methods, including contraceptives and fertility awareness, are available for family planning."
+      ]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": [
+        "How to have a healthy pregnancy?",
+        "Tell me about pregnancy care",
+        "Explain prenatal health"
+      ],
+      "responses": [
+        "Maintaining a healthy lifestyle, regular prenatal check-ups, and proper nutrition are essential for a healthy pregnancy.",
+        "Consulting with a healthcare provider is important for personalized guidance."
+      ]
+    },
+    {
+      "tag": "gynecology",
+      "patterns": [
+        "What is gynecology?",
+        "Tell me about women's health",
+        "Explain gynecological care"
+      ],
+      "responses": [
+        "Gynecology is the branch of medicine that focuses on women's health, especially the female reproductive system.",
+        "Regular gynecological check-ups are important for women's overall well-being."
+      ]
+    },
+    {
+      "tag": "sexual_orientation",
+      "patterns": [
+        "Tell me about sexual orientation",
+        "Explain LGBTQ+ identities",
+        "What is sexual preference?"
+      ],
+      "responses": [
+        "Sexual orientation refers to an individual's emotional, romantic, and sexual attraction to people of the same and/or opposite sex.",
+        "Respecting and understanding diverse sexual orientations is crucial for fostering inclusivity."
+      ]
+    },
+    {
+      "tag": "menstrual_health",
+      "patterns": [
+        "How to maintain menstrual health?",
+        "Tell me about menstrual hygiene",
+        "Explain menstrual disorders"
+      ],
+      "responses": [
+        "Maintaining menstrual health involves proper hygiene practices, regular check-ups, and addressing any menstrual disorders.",
+        "Open communication with healthcare professionals is important for addressing menstrual health concerns."
+      ]
+    },
+    {
+      "tag": "puberty",
+      "patterns": [
+        "What is puberty?",
+        "Tell me about adolescent health",
+        "Explain puberty changes"
+      ],
+      "responses": [
+        "Puberty is the period of development during which physical and sexual maturity is attained.",
+        "It involves various changes in the body, including hormonal changes and the onset of reproductive capabilities."
+      ]
+    },
+    {
+      "tag": "relationship_health",
+      "patterns": [
+        "How to maintain a healthy relationship?",
+        "Tell me about relationship advice",
+        "Explain healthy relationships"
+      ],
+      "responses": [
+        "Maintaining a healthy relationship involves communication, trust, mutual respect, and understanding.",
+        "Seeking professional advice can be beneficial for addressing relationship challenges."
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "Tell me about self-care",
+        "How to practice self-love",
+        "Explain self-care practices"
+      ],
+      "responses": [
+        "Self-care involves taking intentional actions to prioritize and enhance one's physical, mental, and emotional well-being.",
+        "It includes activities that bring joy, relaxation, and a sense of fulfillment."
+      ]
+    },
+    {
+      "tag": "body_image",
+      "patterns": [
+        "How to promote a positive body image?",
+        "Tell me about body positivity",
+        "Explain building body confidence"
+      ],
+      "responses": [
+        "Promoting a positive body image involves self-acceptance, self-love, and challenging unrealistic beauty standards.",
+        "Focusing on one's strengths and uniqueness contributes to a healthy body image."
+      ]
+    },
+    {
+      "tag": "intimacy",
+      "patterns": [
+        "Tell me about intimacy",
+        "How to enhance intimacy in relationships",
+        "Explain emotional intimacy"
+      ],
+      "responses": [
+        "Intimacy involves emotional, intellectual, and physical closeness in relationships.",
+        "Open communication, trust, and shared experiences contribute to the development of intimacy."
+      ]
+    },
+    
+
+    {
+      "tag": "pregnancy_intro",
+      "patterns": [
+        "What is pregnancy?",
+        "Tell me about being pregnant",
+        "Explain pregnancy"
+      ],
+      "responses": [
+        "Pregnancy is the condition of having a developing embryo or fetus in the uterus.",
+        "It is a unique and transformative experience for individuals and families."
+      ]
+    },
+    {
+      "tag": "pregnancy_symptoms",
+      "patterns": [
+        "What are early signs of pregnancy?",
+        "Tell me about pregnancy symptoms",
+        "Explain signs of being pregnant"
+      ],
+      "responses": [
+        "Early signs of pregnancy may include missed periods, nausea, fatigue, and breast tenderness.",
+        "If you suspect pregnancy, a home pregnancy test or consultation with a healthcare provider is recommended."
+      ]
+    },
+    {
+      "tag": "pregnancy_test",
+      "patterns": [
+        "How do pregnancy tests work?",
+        "Tell me about taking a pregnancy test",
+        "Explain home pregnancy tests"
+      ],
+      "responses": [
+        "Pregnancy tests detect the presence of human chorionic gonadotropin (hCG) in urine or blood.",
+        "Follow the instructions on the test kit and consult a healthcare provider for confirmation."
+      ]
+    },
+    {
+      "tag": "prenatal_care",
+      "patterns": [
+        "Why is prenatal care important?",
+        "Tell me about prenatal check-ups",
+        "Explain care during pregnancy"
+      ],
+      "responses": [
+        "Prenatal care is crucial for monitoring the health of both the pregnant individual and the developing baby.",
+        "Regular check-ups, proper nutrition, and lifestyle adjustments contribute to a healthy pregnancy."
+      ]
+    },
+    {
+      "tag": "nutrition_pregnancy",
+      "patterns": [
+        "What should I eat during pregnancy?",
+        "Tell me about prenatal nutrition",
+        "Explain a healthy diet for pregnant women"
+      ],
+      "responses": [
+        "A balanced diet during pregnancy includes essential nutrients such as folic acid, iron, calcium, and protein.",
+        "Consulting a healthcare provider or a nutritionist can help create a personalized nutrition plan."
+      ]
+    },
+    {
+      "tag": "pregnancy_discomforts",
+      "patterns": [
+        "What are common discomforts during pregnancy?",
+        "Tell me about pregnancy-related discomforts",
+        "Explain coping with pregnancy symptoms"
+      ],
+      "responses": [
+        "Common discomforts may include nausea, backache, and fatigue.",
+        "Discussing symptoms with a healthcare provider helps manage discomforts effectively."
+      ]
+    },
+    {
+      "tag": "exercise_pregnancy",
+      "patterns": [
+        "Is exercise safe during pregnancy?",
+        "Tell me about prenatal exercise",
+        "Explain staying active while pregnant"
+      ],
+      "responses": [
+        "Moderate exercise during pregnancy is generally safe and offers health benefits.",
+        "Consulting with a healthcare provider before starting or modifying an exercise routine is advisable."
+      ]
+    },
+    {
+      "tag": "pregnancy_complications",
+      "patterns": [
+        "What are common pregnancy complications?",
+        "Tell me about issues during pregnancy",
+        "Explain high-risk pregnancies"
+      ],
+      "responses": [
+        "Common complications include gestational diabetes, preeclampsia, and preterm labor.",
+        "Close monitoring and early intervention can help manage and prevent complications."
+      ]
+    },
+    {
+      "tag": "multiple_births",
+      "patterns": [
+        "Tell me about multiple pregnancies",
+        "Explain having twins or triplets",
+        "What is a multiple birth?"
+      ],
+      "responses": [
+        "Multiple pregnancies involve carrying more than one baby (twins, triplets, etc.) simultaneously.",
+        "Careful monitoring and specialized prenatal care are essential for the health of both the mother and the babies."
+      ]
+    },
+    {
+      "tag": "pregnancy_emotions",
+      "patterns": [
+        "How to cope with emotions during pregnancy?",
+        "Tell me about mood swings",
+        "Explain emotional changes in pregnancy"
+      ],
+      "responses": [
+        "Pregnancy can bring about various emotions, including joy, anxiety, and mood swings.",
+        "Open communication with partners, family, and healthcare providers can provide support."
+      ]
+    },
+    {
+      "tag": "childbirth_preparation",
+      "patterns": [
+        "How to prepare for childbirth?",
+        "Tell me about labor preparation",
+        "Explain getting ready for delivery"
+      ],
+      "responses": [
+        "Childbirth preparation involves attending prenatal classes, creating a birth plan, and discussing preferences with healthcare providers.",
+        "Being informed and having a support system in place can contribute to a positive childbirth experience."
+      ]
+    },
+    {
+      "tag": "labor_signs",
+      "patterns": [
+        "What are signs of labor?",
+        "Tell me about labor symptoms",
+        "Explain recognizing labor"
+      ],
+      "responses": [
+        "Signs of labor may include regular contractions, water breaking, and cervical dilation.",
+        "Contacting healthcare providers when experiencing signs of labor is important for timely guidance."
+      ]
+    },
+    {
+      "tag": "delivery_options",
+      "patterns": [
+        "What are delivery options?",
+        "Tell me about childbirth choices",
+        "Explain types of delivery"
+      ],
+      "responses": [
+        "Delivery options include vaginal birth and cesarean section (C-section).",
+        "Discussing preferences and potential scenarios with healthcare providers helps create a birth plan."
+      ]
+    },
+    {
+      "tag": "postpartum_care",
+      "patterns": [
+        "Why is postpartum care important?",
+        "Tell me about recovery after childbirth",
+        "Explain postpartum check-ups"
+      ],
+      "responses": [
+        "Postpartum care focuses on the physical and emotional well-being of the individual after childbirth.",
+        "Regular check-ups, adequate rest, and a support system are crucial during the postpartum period."
+      ]
+    },
+    {
+      "tag": "breastfeeding",
+      "patterns": [
+        "Is breastfeeding important?",
+        "Tell me about nursing a baby",
+        "Explain benefits of breastfeeding"
+      ],
+      "responses": [
+        "Breastfeeding provides essential nutrients and offers health benefits for both the baby and the breastfeeding individual.",
+        "Consulting with lactation experts and healthcare providers can address breastfeeding concerns."
+      ]
+    },
+    {
+      "tag": "newborn_care",
+      "patterns": [
+        "How to care for a newborn?",
+        "Tell me about infant care",
+        "Explain newborn needs"
+      ],
+      "responses": [
+        "Newborn care involves feeding, diapering, and ensuring a safe sleep environment.",
+        "Seeking guidance from healthcare providers and parenting resources supports the transition to parenthood."
+      ]
+    },
+    {
+      "tag": "postpartum_depression",
+      "patterns": [
+        "What is postpartum depression?",
+        "Tell me about postnatal depression",
+        "Explain baby blues"
+      ],
+      "responses": [
+        "Postpartum depression is a mood disorder affecting individuals after childbirth.",
+        "Open communication with healthcare providers and emotional support are crucial for managing postpartum mental health."
+      ]
+    },
+    {
+      "tag": "family_planning_postpartum",
+      "patterns": [
+        "How to plan for family after childbirth?",
+        "Tell me about postpartum family planning",
+        "Explain birth control options postpartum"
+      ],
+      "responses": [
+        "Family planning postpartum involves discussing contraceptive options and reproductive health.",
+        "Consulting with healthcare providers helps make informed decisions about birth control."
+      ]
+    },
+    {
+      "tag": "postpartum_exercise",
+      "patterns": [
+        "Is exercise important postpartum?",
+        "Tell me about postnatal exercise",
+        "Explain staying active after childbirth"
+      ],
+      "responses": [
+        "Postpartum exercise, when cleared by healthcare providers, can contribute to physical and mental well-being.",
+        "Gradual and safe reintroduction of exercise is recommended."
+      ]
+    },
+    {
+      "tag": "baby_development",
+      "patterns": [
+        "How does a baby develop after birth?",
+        "Tell me about infant development",
+        "Explain milestones in the first year"
+      ],
+      "responses": [
+        "Infant development involves milestones such as crawling, babbling, and motor skill development.",
+        "Regular pediatric check-ups monitor the baby's growth and developmental progress."
+      ]
+    },
+    {
+      "tag": "parenting_tips_newborn",
+      "patterns": [
+        "Give me tips for parenting a newborn",
+        "Tell me about caring for a newborn",
+        "Explain parenting advice for new parents"
+      ],
+      "responses": [
+        "Parenting a newborn involves creating routines, seeking support, and enjoying bonding moments.",
+        "Connecting with other parents and accessing reliable parenting resources can be beneficial."
+      ]
+    },
+    {
+      "tag": "baby_sleep",
+      "patterns": [
+        "How to establish a sleep routine for a baby?",
+        "Tell me about infant sleep",
+        "Explain baby sleep patterns"
+      ],
+      "responses": [
+        "Establishing a consistent sleep routine involves creating a calm bedtime environment and promoting healthy sleep habits.",
+        "Consulting with pediatricians for guidance on sleep patterns supports both the baby and parents."
+      ]
+    },
+    {
+      "tag": "baby_feeding_solid_food",
+      "patterns": [
+        "When to introduce solid foods to a baby?",
+        "Tell me about starting solid foods",
+        "Explain baby's first foods"
+      ],
+      "responses": [
+        "Introducing solid foods typically begins around 6 months, following cues of readiness and developmental milestones.",
+        "Gradual introduction and monitoring for any allergic reactions are important."
+      ]
+    },
+    {
+      "tag": "baby_teething",
+      "patterns": [
+        "How to handle teething in a baby?",
+        "Tell me about baby teething",
+        "Explain signs of teething"
+      ],
+      "responses": [
+        "Teething involves the emergence of baby teeth and may cause discomfort.",
+        "Providing safe teething toys and consulting with pediatricians for pain relief suggestions are helpful."
+      ]
+    },
+    {
+      "tag": "baby_language_development",
+      "patterns": [
+        "How does a baby develop language skills?",
+        "Tell me about baby's language development",
+        "Explain milestones in language acquisition"
+      ],
+      "responses": [
+        "Language development involves babbling, cooing, and eventually, the emergence of words.",
+        "Reading to the baby, engaging in conversations, and responding to cues support language acquisition."
+      ]
+    },
+    {
+      "tag": "baby_play_activities",
+      "patterns": [
+        "What are engaging activities for a baby?",
+        "Tell me about playtime for infants",
+        "Explain age-appropriate play for babies"
+      ],
+      "responses": [
+        "Engaging activities include tummy time, sensory play, and interactive games that stimulate the baby's senses and motor skills.",
+        "Playing together enhances bonding and supports developmental milestones."
+      ]
+    },
+    {
+      "tag": "baby_health_care",
+      "patterns": [
+        "How to care for a baby's health?",
+        "Tell me about baby healthcare",
+        "Explain infant wellness check-ups"
+      ],
+      "responses": [
+        "Baby healthcare involves vaccinations, regular check-ups, and prompt attention to any signs of illness.",
+        "Following pediatrician recommendations and accessing healthcare resources contribute to a healthy start."
+      ]
+    },
+    {
+      "tag": "periods_food",
+      "patterns": [
+        "What foods are good during periods?",
+        "Suggest some foods for menstruation",
+        "Tell me about a period-friendly diet"
+      ],
+      "responses": [
+        "During periods, it's good to have iron-rich foods like spinach and lean meats.",
+        "Consider foods high in omega-3 fatty acids, such as salmon, for menstrual health.",
+        "Including fruits, vegetables, and whole grains in your diet can be beneficial during periods."
+      ]
+    },
+    {
+      "tag": "periods_pain_cure",
+      "patterns": [
+        "How to relieve period pain?",
+        "What are natural remedies for menstrual cramps?",
+        "Tell me about pain relief during periods"
+      ],
+      "responses": [
+        "Applying a heating pad to the lower abdomen can help alleviate menstrual cramps.",
+        "Drinking herbal teas like chamomile or ginger may provide relief from period pain.",
+        "Regular exercise and staying hydrated can contribute to reducing menstrual discomfort."
+      ]
+    },
+    {
+      "tag": "periods_precautions",
+      "patterns": [
+        "What precautions should I take during periods?",
+        "Tell me about menstrual hygiene",
+        "Share tips for a healthy period"
+      ],
+      "responses": [
+        "Maintain proper menstrual hygiene by changing sanitary products regularly.",
+        "Avoiding certain foods, like excessive caffeine, can help manage period symptoms.",
+        "Stay hydrated, get enough sleep, and manage stress for overall well-being during periods."
+      ]
+    },
+    {
+      "tag": "periods_symptoms",
+      "patterns": [
+        "What are common symptoms during periods?",
+        "Tell me about signs of menstruation",
+        "How do I know if my period is coming?"
+      ],
+      "responses": [
+        "Common symptoms include abdominal cramps, bloating, and mood swings.",
+        "Some signs of menstruation are breast tenderness and changes in cervical mucus.",
+        "You might notice clues like changes in your mood or a feeling of heaviness before your period starts."
+      ]
+    },
+    {
+      "tag": "periods_education",
+      "patterns": [
+        "Tell me more about menstruation",
+        "Explain the menstrual cycle",
+        "What is puberty for girls?"
+      ],
+      "responses": [
+        "Menstruation is a natural process where the body sheds the uterine lining.",
+        "The menstrual cycle involves hormonal changes that prepare the body for pregnancy.",
+        "Puberty for girls includes physical and hormonal changes leading to reproductive maturity."
+      ]
+    },
+    {
+      "tag": "periods_products",
+      "patterns": [
+        "Which menstrual products are best?",
+        "Tell me about tampons and pads",
+        "Are menstrual cups a good option?"
+      ],
+      "responses": [
+        "Tampons, pads, and menstrual cups are common options; choose what suits you best.",
+        "Tampons are inserted into the vagina, pads are worn externally, and menstrual cups collect blood.",
+        "Menstrual cups are reusable and environmentally friendly, but it's essential to use them correctly."
+      ]
+    },
+    {
+      "tag": "periods_mood",
+      "patterns": [
+        "Why do I feel moody during my period?",
+        "Tell me about PMS",
+        "How to manage mood swings during menstruation?"
+      ],
+      "responses": [
+        "Mood swings during periods are often due to hormonal changes, especially premenstrual syndrome (PMS).",
+        "PMS symptoms include irritability, mood swings, and fatigue.",
+        "Managing stress, maintaining a healthy diet, and regular exercise can help alleviate mood swings during menstruation."
+      ]
+    },
+    {
+      "tag": "periods_birth_control",
+      "patterns": [
+        "Tell me about birth control options",
+        "Are there birth control methods for regulating periods?",
+        "Explain the connection between birth control and menstruation"
+      ],
+      "responses": [
+        "Birth control methods like pills can regulate and control the timing of periods.",
+        "Some contraceptives offer benefits beyond preventing pregnancy, such as managing menstrual symptoms.",
+        "Consulting with a healthcare professional can help you find a birth control method that suits your needs."
+      ]
+    },
+    {
+      "tag": "periods_exercise",
+      "patterns": [
+        "Is exercise beneficial during periods?",
+        "Tell me about workouts for menstruation",
+        "Should I avoid exercise during my period?"
+      ],
+      "responses": [
+        "Regular exercise can help reduce menstrual cramps and improve overall well-being.",
+        "Yoga, walking, and light exercises are excellent choices during periods.",
+        "Avoiding strenuous workouts is advisable, but staying active can contribute to menstrual health."
+      ]
+    },
+    {
+      "tag": "periods_sexual_health",
+      "patterns": [
+        "How do periods affect sexual health?",
+        "Tell me about menstruation and intimacy",
+        "Is it safe to have sex during periods?"
+      ],
+      "responses": [
+        "Menstruation does not necessarily impact sexual health; communication is key for comfort.",
+        "Discussing preferences and using protection are essential for a healthy sexual experience during periods.",
+        "Having sex during periods is safe, but personal comfort and hygiene considerations vary."
+      ]
+    },
+    {
+      "tag": "periods_irregularities",
+      "patterns": [
+        "What causes irregular periods?",
+        "Tell me about irregular menstrual cycles",
+        "How to manage irregular periods?"
+      ],
+      "responses": [
+        "Irregular periods can be caused by hormonal imbalances, stress, or underlying health conditions.",
+        "An irregular menstrual cycle is when the length varies or periods occur unpredictably.",
+        "Maintaining a healthy lifestyle, managing stress, and seeking medical advice can help manage irregular periods."
+      ]
+    },
+    {
+      "tag": "periods_teens",
+      "patterns": [
+        "Tell me about periods for teenagers",
+        "How to talk to teens about menstruation",
+        "Explain puberty and periods to teens"
+      ],
+      "responses": [
+        "Puberty and menstruation are natural processes for teenagers, part of growing up.",
+        "Open communication, education, and providing necessary supplies help teenagers navigate menstruation.",
+        "Teens may experience irregular periods initially; it's essential to offer support and information."
+      ]
+    },
+    {
+      "tag": "periods_environment",
+      "patterns": [
+        "Are there environmental concerns related to menstruation?",
+        "Tell me about eco-friendly period products",
+        "How can I reduce the environmental impact of my periods?"
+      ],
+      "responses": [
+        "Menstrual products contribute to environmental waste; consider eco-friendly options like reusable pads or menstrual cups.",
+        "Eco-friendly period products are sustainable alternatives to traditional disposable options.",
+        "Reducing the environmental impact of periods involves making informed choices about the products you use."
+      ]
+    },
+    {
+      "tag": "periods_myths",
+      "patterns": [
+        "Tell me about common myths related to menstruation",
+        "Debunk period myths",
+        "What misconceptions are there about periods?"
+      ],
+      "responses": [
+        "Common myths include the idea that period blood is dirty or that women shouldn't exercise during menstruation.",
+        "It's essential to debunk period myths and promote accurate information about menstruation.",
+        "Education and awareness can help challenge misconceptions and foster a positive attitude toward periods."
+      ]
+    },
+    {
+      "tag": "periods_clothing",
+      "patterns": [
+        "What clothing is comfortable during periods?",
+        "Tell me about period-friendly clothing",
+        "How to choose comfortable attire for menstruation?"
+      ],
+      "responses": [
+        "Comfortable clothing choices during periods include loose-fitting, breathable fabrics.",
+        "Dark-colored and patterned clothing can help conceal any accidental leaks.",
+        "Choosing comfortable underwear and having a spare change of clothes can provide peace of mind during periods."
+      ]
+    },
+    {
+      "tag": "periods_cramps",
+      "patterns": [
+        "How to manage menstrual cramps?",
+        "Tell me about relieving cramps during periods",
+        "What remedies are there for period cramps?"
+      ],
+      "responses": [
+        "Applying a heating pad, taking over-the-counter pain relievers, and staying hydrated can help with menstrual cramps.",
+        "Engaging in relaxation techniques, such as deep breathing, may provide relief from period cramps.",
+        "Regular exercise, maintaining a healthy diet, and managing stress contribute to overall cramp management."
+      ]
+    },
+    {
+      "tag": "periods_travel",
+      "patterns": [
+        "How to manage periods while traveling?",
+        "Tell me about menstruation and travel",
+        "Tips for traveling comfortably during periods?"
+      ],
+      "responses": [
+        "Pack sufficient menstrual supplies, plan restroom breaks, and stay hydrated while traveling during periods.",
+        "Consider using discreet and travel-friendly period products for convenience.",
+        "Planning ahead and being prepared can make traveling during periods more comfortable."
+      ]
+    },
+    {
+      "tag": "periods_books",
+      "patterns": [
+        "Recommend books on menstruation",
+        "Tell me about literature on periods",
+        "Books to help understand menstruation better"
+      ],
+      "responses": [
+        "Books like 'Period Power' by Nadya Okamoto and 'The Period Book' by Karen Gravelle provide valuable insights into menstruation.",
+        "Literature on periods covers a range of topics, from health and wellness to social perspectives.",
+        "Reading books on menstruation can contribute to a better understanding of this natural bodily process."
+      ]
+    },
+    {
+      "tag": "periods_teenagers_boys",
+      "patterns": [
+        "How to educate teenage boys about menstruation?",
+        "Tell me about teaching boys about periods",
+        "Educational resources for boys on menstruation"
+      ],
+      "responses": [
+        "Open and honest conversations about menstruation help educate teenage boys.",
+        "Resources like videos, books, and discussions in schools can contribute to boys' understanding of periods.",
+        "Encouraging empathy and dispelling myths can create a supportive environment for teenage boys regarding menstruation."
+      ]
+    },
+    {
+      "tag": "periods_older_women",
+      "patterns": [
+        "Tell me about menstruation for older women",
+        "Menstruation in perimenopause and menopause",
+        "How does menstruation change with age?"
+      ],
+      "responses": [
+        "Menstruation can change in frequency and intensity as women age, leading to perimenopause and menopause.",
+        "Understanding the changes in menstruation during perimenopause and menopause is essential for older women.",
+        "Consulting with a healthcare professional helps manage any concerns or questions about menstruation in later stages of life."
+      ]
+    },
+    {
+      "tag": "periods_technology",
+      "patterns": [
+        "How can technology help with menstrual tracking?",
+        "Tell me about apps for period tracking",
+        "Use of technology in managing menstruation"
+      ],
+      "responses": [
+        "Period tracking apps help monitor menstrual cycles, ovulation, and symptoms.",
+        "Technology offers various tools for managing menstruation, from period-tracking apps to smart devices.",
+        "Utilizing technology can provide insights into menstrual patterns and overall reproductive health."
+      ]
+    },
+    {
+      "tag": "periods_rituals",
+      "patterns": [
+        "Tell me about cultural rituals related to menstruation",
+        "Rituals and traditions around menstruation",
+        "How is menstruation viewed in different cultures?"
+      ],
+      "responses": [
+        "Menstruation has cultural significance, and rituals vary across different societies.",
+        "Understanding cultural perspectives on menstruation helps promote inclusivity and awareness.",
+        "Cultural rituals around menstruation often reflect societal attitudes and beliefs about this natural biological process."
+      ]
+    },
+    {
+      "tag": "periods_celebrities",
+      "patterns": [
+        "Are there celebrities advocating for menstrual health?",
+        "Tell me about famous figures supporting menstruation",
+        "Celebrities promoting awareness about periods"
+      ],
+      "responses": [
+        "Several celebrities are vocal advocates for menstrual health, contributing to awareness and destigmatization.",
+        "Famous figures support initiatives promoting menstrual hygiene, education, and accessibility to period products.",
+        "Celebrity endorsements and activism play a crucial role in challenging societal taboos and advocating for menstrual health."
+      ]
+    },
+    {
+      "tag": "periods_social_media",
+      "patterns": [
+        "How is social media contributing to menstrual awareness?",
+        "Tell me about social media campaigns for menstruation",
+        "Social media and breaking taboos around periods"
+      ],
+      "responses": [
+        "Social media platforms are instrumental in breaking taboos and fostering open conversations about menstruation.",
+        "Campaigns and hashtags on social media contribute to menstrual awareness and education.",
+        "Utilizing social media helps reach a broader audience, challenging stereotypes and promoting positive discussions about menstruation."
+      ]
+    },
+    {
+    "tag": "missed_periods",
+    "patterns": [
+    "What could be the reasons for missed periods?",
+    "I missed my period, what might be the causes?",
+    "How does lifestyle affect menstrual regularity?"
+    ],
+    "responses": [
+    "Missed periods can be caused by various factors, including stress, changes in weight, hormonal imbalances, or underlying health issues.",
+    "Lifestyle factors like excessive exercise, poor nutrition, or significant stress can impact menstrual regularity and lead to missed periods.",
+    "If you're concerned about missed periods, it's advisable to consult with a healthcare professional for a thorough evaluation."
+    ]
+    },
+    {
+    "tag": "masturbation_health",
+    "patterns": [
+    "Is masturbation healthy?",
+    "Effects of masturbation on health",
+    "Can masturbation have negative consequences?"
+    ],
+    "responses": [
+    "Masturbation is a normal and healthy part of human sexuality for many individuals.",
+    "Moderate masturbation is generally considered safe and can have positive effects on emotional well-being.",
+    "It's essential to maintain a balance and be aware of any negative impacts on mental or physical health. If you have concerns, consulting with a healthcare professional is recommended."
+    ]
+    },
+    {
+    "tag": "contraception_methods",
+    "patterns": [
+    "What are effective contraception methods?",
+    "Tell me about different forms of birth control",
+    "How to choose the right contraception method?"
+    ],
+    "responses": [
+    "There are various contraception methods available, including hormonal birth control, barrier methods, and intrauterine devices (IUDs).",
+    "Choosing the right contraception method depends on individual preferences, health considerations, and lifestyle factors.",
+    "It's crucial to consult with a healthcare provider to discuss options and determine the most suitable contraception method for your specific needs and circumstances."
+    ]
+    },
+    {
+    "tag": "sexual_health_issues",
+    "patterns": [
+    "Common sexual health issues",
+    "How to address sexual health concerns",
+    "Seeking help for sexual health problems"
+    ],
+    "responses": [
+    "Common sexual health issues include STIs, erectile dysfunction, and low libido, among others.",
+    "Addressing sexual health concerns may involve open communication with a healthcare professional, seeking appropriate medical advice, and maintaining a healthy lifestyle.",
+    "If you're facing sexual health problems, it's important to prioritize your well-being and consult with a qualified healthcare provider for guidance and support."
+    ]
+    },
+    {
+      "tag": "missing_periods",
+      "patterns": [
+        "What causes missing periods?",
+        "Why is my period late?",
+        "Irregular menstrual cycle"
+      ],
+      "responses": [
+        "Missing periods can be caused by various factors, including stress, hormonal changes, pregnancy, or underlying health conditions.",
+        "If you're concerned about missing periods, it's advisable to consult with a healthcare professional for a proper evaluation."
+      ]
+    },
+    {
+      "tag": "safe_sex",
+      "patterns": [
+        "How to practice safe sex?",
+        "Tell me about safe sexual practices",
+        "Explain safe sex"
+      ],
+      "responses": [
+        "Practicing safe sex involves using barrier methods like condoms and getting regular health check-ups.",
+        "Communication and consent are crucial for a healthy and safe sexual relationship."
+      ]
+    },
+    {
+      "tag": "masturbation",
+      "patterns": [
+        "Is masturbation normal?",
+        "Tell me about self-pleasure",
+        "Explain masturbation"
+      ],
+      "responses": [
+        "Masturbation is a normal and healthy part of human sexuality.",
+        "It can have various benefits, including stress relief, improved mood, and better understanding of one's body.",
+        "It's a personal choice, and as long as it's done in a private and consensual manner, it's generally considered safe and normal."
+      ]
+    },
+    {
+      "tag": "penis_health",
+      "patterns": [
+        "How to maintain penis health?",
+        "Tell me about caring for the penis",
+        "Explain penis hygiene"
+      ],
+      "responses": [
+        "Maintaining penis health involves regular cleaning, keeping the genital area dry, and wearing breathable underwear.",
+        "Practicing safe sex and getting regular health check-ups are important for overall sexual health."
+      ]
+    },
+    {
+      "tag": "vagina_health",
+      "patterns": [
+        "How to maintain vagina health?",
+        "Tell me about caring for the vagina",
+        "Explain vaginal hygiene"
+      ],
+      "responses": [
+        "Maintaining vagina health includes gentle cleaning, avoiding harsh chemicals, and wearing breathable underwear.",
+        "Regular gynecological check-ups, practicing safe sex, and staying hydrated contribute to overall vaginal well-being."
+      ]
+    },
+    {
+      "tag": "penis_size",
+      "patterns": [
+        "Does size matter?",
+        "Tell me about penis size",
+        "Is my penis size normal?"
+      ],
+      "responses": [
+        "Penis size varies among individuals, and what matters more is the overall satisfaction and communication in a relationship.",
+        "It's essential to understand that there is a wide range of sizes considered normal, and comparisons may not be constructive.",
+        "If you have concerns about your sexual health or body image, it's recommended to discuss them with a healthcare professional or a mental health expert."
+      ]
+    },
+    {
+      "tag": "satisfying_partner",
+      "patterns": [
+        "How to satisfy my partner?",
+        "Tips for pleasing my partner",
+        "Ways to make my partner happy in bed"
+      ],
+      "responses": [
+        "Communication is key. Regularly talk with your partner about their desires, preferences, and boundaries.",
+        "Explore each other's fantasies and be open to trying new things that both you and your partner are comfortable with.",
+        "Focus on foreplay; it can enhance intimacy and pleasure for both partners.",
+        "Be attentive to your partner's body language and verbal cues during intimate moments.",
+        "Create a comfortable and relaxed environment to reduce stress and promote a positive experience.",
+        "Remember that every individual is unique, so there is no one-size-fits-all approach to satisfaction. It's about understanding and responding to your partner's specific needs."
+      ]
+    },
+    {
+      "tag": "ejaculation",
+      "patterns": [
+        "Tell me about ejaculation",
+        "What is the purpose of ejaculation?",
+        "How does ejaculation work?"
+      ],
+      "responses": [
+        "Ejaculation is the release of semen from the penis, typically during sexual climax or orgasm.",
+        "The primary purpose of ejaculation is to release sperm for reproduction. However, sexual pleasure is also a significant aspect of this physiological process.",
+        "Ejaculation is a complex process involving the contraction of muscles in the pelvic region, especially the muscles around the base of the penis.",
+        "The composition of semen includes sperm, fluids from the prostate and seminal vesicles, which nourish and transport the sperm.",
+        "It's important to note that variations in ejaculation, such as premature or delayed ejaculation, can occur and may have various causes. If there are concerns about ejaculation, it's advisable to consult with a healthcare professional."
+      ]
+    },
+    {
+      "tag": "oral_sex",
+      "patterns": [
+        "Tell me about oral sex",
+        "What is oral sex?",
+        "Is oral sex safe?"
+      ],
+      "responses": [
+        "Oral sex involves the stimulation of the genitals using the mouth and tongue.",
+        "It is a common and consensual sexual activity for many adults and can be part of a healthy sexual relationship.",
+        "Safety in oral sex can be increased by using barrier methods like dental dams or condoms, especially if there are concerns about sexually transmitted infections (STIs).",
+        "Communication and consent are crucial; partners should discuss and agree on their comfort levels and boundaries before engaging in any sexual activity.",
+        "Maintaining good oral hygiene is important for both partners involved in oral sex."
+      ]
+    },
+    {
+      "tag": "pornography",
+      "patterns": [
+        "Tell me about pornography",
+        "What is the impact of watching porn?",
+        "Is watching porn normal?"
+      ],
+      "responses": [
+        "Pornography refers to explicit sexual content, typically in the form of videos, images, or literature, created for the purpose of sexual arousal.",
+        "The impact of watching porn can vary among individuals. Some people find it a normal part of their sexual expression, while others may experience concerns related to mental health or relationships.",
+        "It's important to consume porn in moderation and be aware of its potential effects on one's mental and emotional well-being.",
+        "Open communication with your partner about preferences and boundaries related to pornography is crucial for a healthy relationship.",
+        "If watching porn becomes a source of distress or interferes with daily life, it may be helpful to seek guidance from a mental health professional."
+      ]
+    },
+    {
+      "tag": "appropriate_age_sex",
+      "patterns": [
+        "What is the appropriate age for sex?",
+        "When is it okay to start having sex?",
+        "Age for sexual activity"
+      ],
+      "responses": [
+        "Determining the appropriate age for sexual activity is a personal and cultural matter.",
+        "In many places, the legal age of consent is established to ensure individuals are mature enough to make informed decisions about their sexual health.",
+        "Beyond legal considerations, it's crucial for individuals to be emotionally and mentally ready for such intimate experiences.",
+        "Open communication with partners and seeking information on sexual health are essential aspects of responsible sexual behavior.",
+        "It's recommended for individuals to wait until they feel ready, have access to contraception and protection against sexually transmitted infections, and are in a consensual and respectful relationship.",
+        "If there are concerns or uncertainties about the appropriate age for sexual activity, consulting with a healthcare professional or a sexual health expert can provide guidance."
+      ]
+    }
+                
+    
+    
+    
+    
+  ]
+}
